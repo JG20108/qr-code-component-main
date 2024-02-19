@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif; /* Updated font family */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%); /* This matches the style guide */
+}
+
+.qr-code-card {
+    background-color: #fff; /* Matches White in the style guide */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.qr-code {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 20px 0 10px;
+    font-size: 22px; /* Consider if you need to adjust this for mobile or desktop based on the design */
+    color: hsl(218, 44%, 22%); /* Updated to Dark blue as per style guide */
+}
+
+p {
+    color: hsl(219, 29%, 14%); /* This is close to Dark blue, adjust if necessary */
+    font-size: 15px; /* Matches the style guide */
+}
+
+.attribution {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); /* This color wasn't specified in the style guide, adjust if needed */
+}
